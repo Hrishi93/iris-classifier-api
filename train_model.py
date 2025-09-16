@@ -10,4 +10,4 @@ y = data.target
 RFC = RandomForestClassifier(n_estimators=100)
 RFC.fit(X,y)
 
-joblib.dump(RFC , "iris_classifier_model.pkl")
+joblib.dump(RFC , "iris_model.pkl")
